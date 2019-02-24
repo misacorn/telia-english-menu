@@ -1,0 +1,48 @@
+svg {
+  font-size: 1.5em;
+  position: absolute;
+  height: 1em;
+  transform: translateY(117%);
+  color: #990ae3;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown button {
+  border: none;
+  outline: none;
+  color: #990ae3;
+  text-transform: uppercase;
+  background-color: inherit;
+  font: inherit;
+  margin-left: 13px;
+}
+
+.withHover {
+  color: #c0f !important;
+}
+
+.dropdown-content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1081px) {
+  .dropdown button {
+    display: none;
+  }
+  .dropdown-content {
+    margin-top: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-content {
+    flex-direction: column;
+  }
+}
