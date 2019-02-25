@@ -72,7 +72,7 @@
   display: flex;
   flex-wrap: wrap;
   border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 5px 18px #888888bf;
+  box-shadow: 0 5px 7px #88888845;
 }
 
 .row2 a {

@@ -21,7 +21,7 @@ svg {
   margin-left: 13px;
 }
 
-.withHover {
+.onFocused {
   color: #c0f !important;
 }
 

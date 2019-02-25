@@ -35,7 +35,7 @@ export default class HamburgerButton extends Component {
       WebkitTapHighlightColor: "rgba(0,0,0,0)"
     };
 
-    let btn_class = toggle ? "withHover" : null;
+    let btn_class = toggle ? "onFocused" : null;
 
     return (
       <div className="dropdown">
