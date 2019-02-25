@@ -71,6 +71,8 @@
   padding: 48px 96px 16px 96px;
   display: flex;
   flex-wrap: wrap;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 5px 18px #888888bf;
 }
 
 .row2 a {
