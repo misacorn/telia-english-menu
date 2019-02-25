@@ -109,6 +109,21 @@
   text-transform: none;
 }
 
+@media screen and (min-width: 1520px) {
+  .column-1 {
+    height: 72px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .column-2 {
+    height: 72px;
+  }
+  .column-2 a {
+    width: 25%;
+    padding-top: 14px;
+  }
+}
+
 @media screen and (max-width: 1081px) {
   .column {
     padding: 0 1em !important;
