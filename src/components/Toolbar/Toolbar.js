@@ -15,7 +15,7 @@ const Toolbar = () => (
         />
       </a>
     </div>
-    <a style={{ float: "right", padding: "25px 0" }} href="Cart">
+    <a style={{ float: "right", padding: "25px 0" }} href="/">
       <i className="fas fa-cart-plus" />
     </a>
     <a
@@ -25,7 +25,7 @@ const Toolbar = () => (
         marginLeft: "38px",
         display: "flex"
       }}
-      href="User"
+      href="/"
     >
       <i className="fas fa-user" />
       <div className="login" style={{ marginLeft: "5px", fontWeight: "700" }}>
