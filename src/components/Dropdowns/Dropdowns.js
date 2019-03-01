@@ -8,19 +8,19 @@ const Dropdowns = () => (
   <div className="rows">
     <div className="row1">
       <div className="column column-2">
-        <a href="Etsi kauppa">
+        <a href="/">
           <i className="fas fa-map-marker-alt black-fa" />
           Etsi kauppa
         </a>
-        <a href="Etsi ohjeita">
+        <a href="/">
           <i className="fas fa-question-circle black-fa" />
           Etsi ohjeita
         </a>
-        <a href="Kysy Yhteisöltä">
+        <a href="/">
           <i className="fas fa-users black-fa" />
           Kysy Yhteisöltä
         </a>
-        <a href="Ota yhteyttä">
+        <a href="/">
           <i className="fas fa-phone black-fa" />
           Ota yhteyttä
         </a>

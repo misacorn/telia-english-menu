@@ -15,7 +15,7 @@ const Toolbar = () => (
         />
       </a>
     </div>
-    <a style={{ float: "right", padding: "25px 0" }} href="Cart">
+    <a style={{ float: "right", padding: "25px 0" }} href="/">
       <i className="fas fa-cart-plus" />
     </a>
     <a

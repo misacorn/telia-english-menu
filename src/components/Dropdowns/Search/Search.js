@@ -22,7 +22,7 @@ class Search extends Component {
     return (
       <div className="search-input">
         <div>
-          <a href="Etsi">
+          <a href="/">
             <i className="fas fa-search" style={{ width: "53px" }} />
           </a>
           <input
